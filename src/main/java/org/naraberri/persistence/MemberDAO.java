@@ -8,4 +8,7 @@ public interface MemberDAO {
 	
 	public void insertMamber(MemberVO vo);
 	
+	public MemberVO readMember(String userid) throws Exception;
+	
+	public MemberVO readWithPW(String userid, String userpw) throws Exception;
 }
