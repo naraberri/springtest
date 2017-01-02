@@ -1,7 +1,5 @@
 package org.naraberri.web;
 
-import static org.junit.Assert.fail;
-
 import javax.inject.Inject;
 
 import org.junit.Test;
